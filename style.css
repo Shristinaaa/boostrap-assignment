@@ -24,12 +24,9 @@
   padding: 10px 25px 10px 25px;
 }
 
-img {
-  width: 300px;
-}
-
 .iphone {
   position: relative;
+  width: 300px;
 }
 
 .iphone-content {
@@ -41,7 +38,17 @@ img {
 /* First container ends */
 
 /* second container starts */
-.discover article {
+.discover {
   text-align: center;
+  background: #fdca4b;
+}
+
+.discover h1 {
+  padding: 0 260px 0 260px;
+}
+
+.discover img {
+  cursor: pointer;
+  width: 150px;
 }
 /* Second container ends */
