@@ -1,0 +1,12 @@
+/* First container starts */
+.home {
+  background-image: url("bg-pattern.png"),
+    linear-gradient(to right, #c0392b, #8e44ad);
+}
+
+.home a {
+  text-decoration: none;
+  color: white;
+  flot
+}
+/* First container ends */
