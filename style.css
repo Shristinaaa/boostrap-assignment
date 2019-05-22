@@ -11,9 +11,6 @@
   color: white;
 }
 
-.home nav h6 {
-  margin-left: 100px;
-}
 /* Navbar ends */
 
 .home-article h1 {
@@ -27,17 +24,6 @@
   padding: 10px 25px 10px 25px;
 }
 
-/* .home-article .image {
-  background-image: url("iphone.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-} */
-
-/* .home-article .image img {
-  width: 95%;
-  margin-top: 86px;
-  margin-left: 9px;
-} */
 img {
   width: 300px;
 }
@@ -53,3 +39,9 @@ img {
   width: 261px;
 }
 /* First container ends */
+
+/* second container starts */
+.discover article {
+  text-align: center;
+}
+/* Second container ends */
