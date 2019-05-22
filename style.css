@@ -1,4 +1,6 @@
 /* First container starts */
+
+/* Navbar starts*/
 .home {
   background-image: url("bg-pattern.png"),
     linear-gradient(to right, #c0392b, #8e44ad);
@@ -7,6 +9,47 @@
 .home a {
   text-decoration: none;
   color: white;
-  flot
+}
+
+.home nav h6 {
+  margin-left: 100px;
+}
+/* Navbar ends */
+
+.home-article h1 {
+  color: white;
+  /* padding: 0 100px 0 200px; */
+}
+
+.home-article button {
+  font-size: 10px;
+  border-radius: 20px;
+  padding: 10px 25px 10px 25px;
+}
+
+/* .home-article .image {
+  background-image: url("iphone.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+} */
+
+/* .home-article .image img {
+  width: 95%;
+  margin-top: 86px;
+  margin-left: 9px;
+} */
+img {
+  width: 300px;
+}
+
+.iphone {
+  position: relative;
+}
+
+.iphone-content {
+  position: absolute;
+  top: 70px;
+  left: 35px;
+  width: 261px;
 }
 /* First container ends */
