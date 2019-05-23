@@ -1,9 +1,16 @@
 /* First container starts */
 
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Catamaran";
+}
 /* Navbar starts*/
 .home {
   background-image: url("bg-pattern.png"),
-    linear-gradient(to right, #c0392b, #8e44ad);
+    linear-gradient(to left, #7b4397, #dc2430);
 }
 
 .home a {
@@ -11,17 +18,31 @@
   color: white;
 }
 
+.spanrow .navbar-brand {
+  color: #fdcc52;
+  font-family: "Catamaran", Helvetica, Arial, sans-serif;
+  font-size: 25px;
+}
+
+.spanrow li {
+  font-family: Lato, Helvetica, Arial, sans-serif;
+  letter-spacing: 2px;
+  font-size: 12px;
+}
+
 /* Navbar ends */
 
 .home-article h1 {
   color: white;
-  /* padding: 0 100px 0 200px; */
+  font-size: 50px;
+  letter-spacing: 1px;
 }
 
 .home-article button {
   font-size: 10px;
-  border-radius: 20px;
-  padding: 10px 25px 10px 25px;
+  border-radius: 30px;
+  padding: 15px 45px;
+  font-family: "Lato";
 }
 
 .iphone {
@@ -32,8 +53,8 @@
 .iphone-content {
   position: absolute;
   top: 70px;
-  left: 35px;
-  width: 261px;
+  left: 67px;
+  width: 262px;
 }
 /* First container ends */
 
@@ -41,10 +62,6 @@
 .discover {
   text-align: center;
   background: #fdca4b;
-}
-
-.discover h1 {
-  padding: 0 260px 0 260px;
 }
 
 .discover img {
