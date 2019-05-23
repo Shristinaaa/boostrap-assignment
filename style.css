@@ -4,7 +4,8 @@ h1,
 h2,
 h3,
 h4,
-h5 {
+h5,
+h6 {
   font-family: "Catamaran";
 }
 /* Navbar starts*/
@@ -59,13 +60,18 @@ h5 {
 /* First container ends */
 
 /* second container starts */
-.discover {
+
+.discover .container-fluid {
+  background-color: #fdc947;
   text-align: center;
-  background: #fdca4b;
 }
 
 .discover img {
-  cursor: pointer;
-  width: 150px;
+  width: 200px;
+}
+
+.discover h1 {
+  font-size: 70px;
+  padding:
 }
 /* Second container ends */
