@@ -8,6 +8,10 @@ h5,
 h6 {
   font-family: "Catamaran";
 }
+p {
+  font-family: "Lato";
+  font-size: 18px;
+}
 /* Navbar starts*/
 .home {
   background-image: url("bg-pattern.png"),
@@ -72,6 +76,50 @@ h6 {
 
 .discover h1 {
   font-size: 70px;
-  padding:
 }
 /* Second container ends */
+
+/* Third section starts */
+.unlimited {
+  text-align: center;
+}
+
+.unlimited h1 {
+  font-size: 50px;
+}
+
+i {
+  color: #a6356a;
+  font-size: 80px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.unlimited .device {
+  position: relative;
+  width: 300px;
+}
+
+.unlimited .screen {
+  position: absolute;
+  top: 70px;
+  left: 170px;
+  width: 262px;
+}
+/* Third section ends */
+
+/* Fourth section starts */
+
+.stop {
+  background-image: url("bg-cta.jpg");
+  background-size: cover;
+}
+.stop .content {
+  margin-top: 500px;
+}
+.stop h1 {
+  font-size: 80px;
+  color: white;
+}
+
+/* Fourth section ends */
