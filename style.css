@@ -12,7 +12,9 @@ p {
   font-family: "Lato";
   font-size: 18px;
 }
+
 /* Navbar starts*/
+
 .home {
   background-image: url("bg-pattern.png"),
     linear-gradient(to left, #7b4397, #dc2430);
@@ -111,15 +113,23 @@ i {
 /* Fourth section starts */
 
 .stop {
-  background-image: url("bg-cta.jpg");
-  background-size: cover;
+  position: relative;
 }
 .stop .content {
-  margin-top: 500px;
+  position: absolute;
+  top: 255px;
+  left: 25px;
 }
 .stop h1 {
   font-size: 80px;
   color: white;
+}
+
+.stop button {
+  font-size: 11px;
+  border-radius: 30px;
+  padding: 15px 45px;
+  font-family: "Lato";
 }
 
 /* Fourth section ends */
