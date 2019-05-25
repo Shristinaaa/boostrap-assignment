@@ -54,14 +54,14 @@ p {
 
 .iphone {
   position: relative;
-  width: 300px;
+  width: 400px;
 }
 
 .iphone-content {
   position: absolute;
-  top: 70px;
-  left: 67px;
-  width: 262px;
+  top: 93px;
+  left: 75px;
+  width: 348px;
 }
 /* First container ends */
 
@@ -97,17 +97,6 @@ i {
   margin-top: 10px;
 }
 
-.unlimited .device {
-  position: relative;
-  width: 300px;
-}
-
-.unlimited .screen {
-  position: absolute;
-  top: 70px;
-  left: 170px;
-  width: 262px;
-}
 /* Third section ends */
 
 /* Fourth section starts */
@@ -115,10 +104,10 @@ i {
 .stop {
   position: relative;
 }
-.stop .content {
+
+.stop .row {
   position: absolute;
-  top: 255px;
-  left: 25px;
+  top: 0px;
 }
 .stop h1 {
   font-size: 80px;
@@ -133,3 +122,42 @@ i {
 }
 
 /* Fourth section ends */
+
+/* Fifth section starts */
+.friends {
+  background-color: #fdc947;
+}
+
+.heart {
+  font-size: 50px;
+  color: #dd4b39;
+}
+
+.friends img {
+  width: 80px;
+}
+
+.friends {
+  text-align: center;
+}
+
+.friends h1 {
+  font-size: 70px;
+}
+/* Fifth section ends */
+
+/* Footer starts */
+footer {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+footer {
+  text-align: center;
+}
+
+footer a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+/* Footer ends */
