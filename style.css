@@ -28,7 +28,7 @@ p {
 .spanrow .navbar-brand {
   color: #fdcc52;
   font-family: "Catamaran", Helvetica, Arial, sans-serif;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .spanrow li {
@@ -45,23 +45,21 @@ p {
 }
 
 .home-article button {
-  font-size: 10px;
+  font-size: 12px;
   border-radius: 30px;
-  padding: 15px 45px;
   font-family: "Lato";
 }
 
 .iphone {
-  position: relative;
-  width: 400px;
+  width: 350px;
 }
 
-.iphone-content {
+/* .iphone-content {
   position: absolute;
-  top: 93px;
-  left: 75px;
-  width: 348px;
-}
+  top: 81px;
+  left: 50px;
+  width: 307px;
+} */
 /* First container ends */
 
 /* second container starts */
@@ -89,11 +87,9 @@ p {
   font-size: 50px;
 }
 
-i {
+.iconify {
   color: #a6356a;
   font-size: 80px;
-  margin-bottom: 10px;
-  margin-top: 10px;
 }
 
 /* Third section ends */
@@ -109,7 +105,7 @@ i {
   top: 0px;
 }
 .stop h1 {
-  font-size: 80px;
+  font-size: 70px;
   color: white;
 }
 
