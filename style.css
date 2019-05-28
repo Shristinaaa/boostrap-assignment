@@ -28,7 +28,7 @@ p {
 .spanrow .navbar-brand {
   color: #fdcc52;
   font-family: "Catamaran", Helvetica, Arial, sans-serif;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 .spanrow li {
@@ -41,17 +41,18 @@ p {
 
 .home-article h1 {
   color: white;
-  font-size: 50px;
+  font-size: 40px;
 }
 
 .home-article button {
-  font-size: 12px;
+  font-size: 10px;
   border-radius: 30px;
   font-family: "Lato";
+  letter-spacing: 1px;
 }
 
 .iphone {
-  width: 350px;
+  width: 260px;
 }
 
 /* .iphone-content {
@@ -70,11 +71,11 @@ p {
 }
 
 .discover img {
-  width: 200px;
+  width: 160px;
 }
 
 .discover h1 {
-  font-size: 70px;
+  font-size: 50px;
 }
 /* Second container ends */
 
@@ -84,12 +85,16 @@ p {
 }
 
 .unlimited h1 {
-  font-size: 50px;
+  font-size: 40px;
+}
+
+.unlimited p {
+  font-size: 15px;
 }
 
 .iconify {
   color: #a6356a;
-  font-size: 80px;
+  font-size: 55px;
 }
 
 /* Third section ends */
@@ -101,16 +106,16 @@ p {
 }
 
 .stop img {
-  width: 100vw;
+  width: 100%;
   filter: brightness(50%);
 }
 
 .stop .row {
   position: absolute;
-  top: 0px;
+  top: 40%;
+  left: 10%;
 }
 .stop h1 {
-  font-size: 70px;
   color: white;
 }
 

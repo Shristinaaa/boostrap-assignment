@@ -33,12 +33,12 @@
   </head>
   <body>
     <!-- First section starts -->
-    <section class="home">
+    <section class="home px-md-5">
       <div class="container-fluid">
         <!-- Navbar starts -->
-        <div class="spanrow mx-md-5">
-          <nav class="navbar navbar-expand-lg navbar-dark py-2">
-            <a class="navbar-brand ml-md-3" href="#">Start Bootstrap</a>
+        <div class="spanrow mx-lg-5">
+          <nav class="navbar navbar-expand-lg navbar-dark py-2 px-md-5 ml-md-5">
+            <a class="navbar-brand small" href="#">Start Bootstrap</a>
             <button
               class="navbar-toggler nav-right"
               type="button"
@@ -51,19 +51,16 @@
               Menu <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div
-              class="collapse navbar-collapse ml-auto nav-right"
-              id="navbarSupportedContent"
-            >
-              <ul class="nav navbar-nav ml-auto">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="nav navbar-nav ml-auto mr-md-4">
                 <li class="nav-item pl-3">
-                  <a class="nav-link" href="#">DOWNLOAD</a>
+                  <a class="nav-link small" href="#">DOWNLOAD</a>
                 </li>
                 <li class="nav-item pl-3">
-                  <a class="nav-link" href="#">FEATURES</a>
+                  <a class="nav-link small" href="#">FEATURES</a>
                 </li>
                 <li class="nav-item pl-3">
-                  <a class="nav-link" href="#">CONTACT</a>
+                  <a class="nav-link small" href="#">CONTACT</a>
                 </li>
               </ul>
             </div>
@@ -73,29 +70,35 @@
         <!-- Navbar ends -->
 
         <!-- Content starts -->
-        <div class="container-fluid">
+        <div class="container-fluid mt-3">
           <article class="home-article row px-md-5">
-            <section class="col-sm-5 my-auto mx-auto">
-              <div class="container">
-                <h1>
+            <section class="col-sm-6 my-auto mx-auto">
+              <div class="container text-center text-md-left ml-auto">
+                <h1 class="ml-md-4 pl-5">
                   New Age is an app landing page that will help you beautifully
                   showcase your new mobile app, or anything else!
                 </h1>
                 <br />
-                <button
-                  type="button"
-                  class="btn btn-outline-light px-5 py-3 mb-4"
-                >
-                  START NOW FOR FREE !
-                </button>
+                <div class="container ml-2">
+                  <button
+                    type="button"
+                    class="btn btn-outline-light px-4 py-2 ml-md-5"
+                  >
+                    START NOW FOR FREE !
+                  </button>
+                </div>
               </div>
             </section>
 
-            <div class="col-sm-5 mb-md-5 pl-5 ">
+            <div class="col-sm-5 my-md-4">
               <!-- <img src="iphone.png" alt="" class="iphone img-fluid mb-3" />
               <img src="iphone-content.jpg" class="iphone-content img-fluid" /> -->
 
-              <img src="iphone_720.png" alt="" class="iphone img-fluid mb-5" />
+              <img
+                src="iphone_720.png"
+                alt=""
+                class="iphone img-fluid mb-5 ml-md-3"
+              />
             </div>
           </article>
         </div>
@@ -108,71 +111,77 @@
     <!-- Second section starts -->
     <section class="discover">
       <article class="container-fluid py-5 px-5">
-        <h1 class="pt-5">Discover what all the</h1>
-        <h1>buzz is about!</h1>
+        <h1 class="mt-5 pt-4">
+          Discover what all the<br />
+          buzz is about!
+        </h1>
         <p>
           Our app is available on any mobile device! Download now to get
           started!
         </p>
-        <br />
-        <div class="container store-image mb-4">
-          <a href="#"
-            ><img class="mb-md-5 mb-3" src="google-play-badge.svg"
-          /></a>
-          <a href="#"><img class="mb-md-5" src="app-store-badge.svg"/></a>
+
+        <div class="container store-image mb-5 ">
+          <a href="#"><img class="" src="google-play-badge.svg"/></a>
+          <a href="#"><img class="" src="app-store-badge.svg"/></a>
         </div>
       </article>
     </section>
     <!-- Second section ends -->
 
     <!-- Third section starts -->
-    <section class="unlimited">
-      <div class="container pt-5">
-        <h1 class="mt-5">Unlimited Features, Unlimited Fun</h1>
-        <p class="mb-4">Checkout what you can do with this app theme!</p>
+    <section class="unlimited pb-5">
+      <div class="container pt-5 mb-md-5 pb-md-4">
+        <h1 class="mt-4">Unlimited Features, Unlimited Fun</h1>
+        <p class="text-secondary">
+          Checkout what you can do with this app theme!
+        </p>
       </div>
 
-      <div class="row my-5 py-5">
-        <div class="col-sm-5">
-          <img src="iphone_720.png" alt="" class="iphone img-fluid" />
+      <div class="row ml-5 pl-2">
+        <div class="col-sm-4 ml-md-5 pl-5">
+          <img
+            src="iphone_720.png"
+            alt=""
+            class="iphone img-fluid ml-md-5 mb-md-5"
+          />
         </div>
 
-        <div class="col-lg-5 my-5 py-5">
-          <div class="row mb-4">
+        <div class="col-sm-5 pt-md-5 mt-2">
+          <div class="row">
             <div class="col-sm-6">
               <span
-                class="iconify"
+                class="iconify mb-2"
                 data-icon="simple-line-icons:screen-smartphone"
                 data-inline="false"
               ></span>
               <h3>Device Mockups</h3>
-              <p>
+              <p class="text-secondary">
                 Ready to use HTML/CSS device mockups, no Photoshop required!
               </p>
             </div>
 
             <div class="col-sm-6">
               <span
-                class="iconify"
+                class="iconify mb-2"
                 data-icon="simple-line-icons:camera"
                 data-inline="false"
               ></span>
               <h3>Flexible Use</h3>
-              <p>
+              <p class="text-secondary">
                 Put an image,video, animation, or anything else in the screen!
               </p>
             </div>
           </div>
 
-          <div class="row">
+          <div class="row mt-md-5 pt-4">
             <div class="col-sm-6">
               <span
-                class="iconify"
+                class="iconify mb-2"
                 data-icon="simple-line-icons:present"
                 data-inline="false"
               ></span>
               <h3>Free to Use</h3>
-              <p>
+              <p class="text-secondary">
                 As always. this theme is free to download and use for any
                 purpose!
               </p>
@@ -180,12 +189,12 @@
 
             <div class="col-sm-6">
               <span
-                class="iconify"
+                class="iconify mb-2"
                 data-icon="simple-line-icons:lock-open"
                 data-inline="false"
               ></span>
               <h3>Open Source</h3>
-              <p>
+              <p class="text-secondary">
                 Since this theme is MIT licensed, you can use it commercially
               </p>
             </div>
@@ -197,11 +206,10 @@
 
     <!-- Fourth section starts -->
     <section class="stop">
-      <img src="bg-cta.jpg" />
-      <article class="row h-100">
-        <div class="col-sm-12 my-auto ml-5 pl-5">
-          <h1>Stop waiting.</h1>
-          <h1>Start building.</h1>
+      <img src="bg-cta.jpg" class="cta" />
+      <article class="row">
+        <div class="col-sm-12">
+          <h1 class="stop-text mb-4">Stop waiting.<br />Start building.</h1>
           <button type="button" class="fourth-btn btn btn-outline-light">
             LETS GET IN STARTED !
           </button>
