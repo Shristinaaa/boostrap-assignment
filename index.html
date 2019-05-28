@@ -37,21 +37,15 @@
       <div class="container-fluid">
         <!-- Navbar starts -->
         <div class="spanrow mx-lg-5">
-          <nav class="navbar navbar-expand-lg navbar-dark py-2 px-md-4 ml-md-5">
+          <nav
+            class="navbar navbar-expand-lg navbar-dark py-2 px-md-4 ml-md-5 d-none d-md-block"
+          >
             <a class="navbar-brand small" href="#">Start Bootstrap</a>
-            <button
-              class="navbar-toggler nav-right"
-              type="button"
-              data-toggle="collapse"
-              data-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              Menu <span class="navbar-toggler-icon"></span>
-            </button>
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div
+              class="collapse navbar-collapse float-right"
+              id="navbarSupportedContent"
+            >
               <ul class="nav navbar-nav ml-auto mr-md-4">
                 <li class="nav-item pl-1">
                   <a class="nav-link small" href="#">DOWNLOAD</a>
@@ -216,6 +210,38 @@
 
     <!-- Fift section starts -->
     <section class="friends py-5">
+      <nav
+        class="navbar navbar-expand-lg navbar-dark py-2 px-md-4 ml-md-5 d-md-none bg-dark"
+      >
+        <button
+          class="navbar-toggler nav-right mx-auto"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          Menu <span class="fas fa-bars "></span>
+        </button>
+        <div
+          class="collapse navbar-collapse float-right"
+          id="navbarSupportedContent"
+        >
+          <ul class="nav navbar-nav ml-auto mr-md-4">
+            <li class="nav-item pl-1">
+              <a class="nav-link small" href="#">DOWNLOAD</a>
+            </li>
+            <li class="nav-item pl-1">
+              <a class="nav-link small" href="#">FEATURES</a>
+            </li>
+            <li class="nav-item pl-1">
+              <a class="nav-link small" href="#">CONTACT</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
       <h1 class="pt-4">We <i class="fas fa-heart heart"></i> new friends!</h1>
       <div class="container socials pt-2 mb-4">
         <a href="#"><img src="twitter.png" alt="" class="twitter mr-2 "/></a>
