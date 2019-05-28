@@ -110,7 +110,7 @@ p {
 
 .stop .row {
   position: absolute;
-  top: 40%;
+  top: 35%;
   left: 16%;
 }
 .stop h1 {
@@ -163,3 +163,10 @@ footer a {
 }
 
 /* Footer ends */
+
+@media all and (max-width: 768px) {
+  .stop-text {
+    font-size: 30px;
+  }
+  
+}
