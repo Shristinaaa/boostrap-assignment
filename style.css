@@ -103,30 +103,32 @@ p {
 
 .stop {
   position: relative;
-  max-width: 100%;
-  max-height: 40%;
 }
 
-.stop img {
-  max-height: 80%;
-  max-width: 100%;
-  object-fit: fill;
+.stop-image {
+  width: 100%;
+  height: 100vh;
+  background-image: url("bg-cta.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
   filter: brightness(50%);
 }
+
 .stop .row {
   position: absolute;
   top: 40%;
-  left: 10%;
+  left: 16%;
 }
 .stop h1 {
   color: white;
 }
 
 .stop button {
-  font-size: 11px;
+  font-size: 10px;
   border-radius: 30px;
-  padding: 15px 45px;
   font-family: "Lato";
+  letter-spacing: 1px;
 }
 
 /* Fourth section ends */
